@@ -1,0 +1,41 @@
+{
+  "album": "Patriot Act Up",
+  "songs": [
+    {
+      "track": 4,
+      "folder": "Democracys_on_Fire",
+      "title": "Democracy's on Fire",
+      "overview": "index.html",
+      "audio": {
+        "mp3": "",
+        "flac": "song.flac"
+      },
+      "parts": [
+        {
+          "name": "Drums",
+          "html": "drums.html",
+          "stem": "stems/drums.wav",
+          "notes": "148 BPM beat with crash accents during 'fire' lines."
+        },
+        {
+          "name": "Rhythm Guitar",
+          "html": "rhythm_guitar.html",
+          "stem": "stems/rhythm_guitar.wav",
+          "notes": "Drop D. Clean-to-dirty transitions. Aggressive chorus."
+        },
+        {
+          "name": "Lead Guitar",
+          "html": "lead_guitar.html",
+          "stem": "stems/lead_guitar.wav",
+          "notes": "Intro solo, octave riffs, tone slides."
+        },
+        {
+          "name": "Vocals",
+          "html": "vocals.html",
+          "stem": "stems/vocals.wav",
+          "notes": "Punk growl with political urgency."
+        }
+      ]
+    }
+  ]
+}

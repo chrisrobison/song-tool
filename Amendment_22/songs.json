@@ -1,0 +1,41 @@
+{
+  "album": "Patriot Act Up",
+  "songs": [
+    {
+      "track": 1,
+      "folder": "Amendment_22",
+      "title": "Amendment 22",
+      "overview": "index.html",
+      "audio": {
+        "mp3": "song.mp3",
+        "flac": ""
+      },
+      "parts": [
+        {
+          "name": "Drums",
+          "html": "drums.html",
+          "stem": "stems/drums.wav",
+          "notes": "Standard punk beat at 149 BPM. Crash emphasis on chorus."
+        },
+        {
+          "name": "Rhythm Guitar",
+          "html": "rhythm_guitar.html",
+          "stem": "stems/rhythm_guitar.wav",
+          "notes": "Drop D. Palm-muting during verses."
+        },
+        {
+          "name": "Lead Guitar",
+          "html": "lead_guitar.html",
+          "stem": "stems/lead_guitar.wav",
+          "notes": "Minor pentatonic melody overlays."
+        },
+        {
+          "name": "Vocals",
+          "html": "vocals.html",
+          "stem": "stems/vocals.wav",
+          "notes": "Gang vocals in chorus. Urgent tone."
+        }
+      ]
+    }
+  ]
+}

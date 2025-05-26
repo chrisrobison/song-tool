@@ -1,0 +1,41 @@
+{
+  "album": "Patriot Act Up",
+  "songs": [
+    {
+      "track": 5,
+      "folder": "Dept_of_Ignorance",
+      "title": "Education Soul Doubt",
+      "overview": "index.html",
+      "audio": {
+        "mp3": "song.mp3",
+        "flac": ""
+      },
+      "parts": [
+        {
+          "name": "Drums",
+          "html": "drums.html",
+          "stem": "stems/drums.wav",
+          "notes": "Fast 152 BPM punk style. Build into chorus."
+        },
+        {
+          "name": "Rhythm Guitar",
+          "html": "rhythm_guitar.html",
+          "stem": "stems/rhythm_guitar.wav",
+          "notes": "Muted verses. Wide-open chorus distortion."
+        },
+        {
+          "name": "Lead Guitar",
+          "html": "lead_guitar.html",
+          "stem": "stems/lead_guitar.wav",
+          "notes": "Bridge tremolo and outro melody."
+        },
+        {
+          "name": "Vocals",
+          "html": "vocals.html",
+          "stem": "stems/vocals.wav",
+          "notes": "Angry protest tone. Gang shouts: 'Hey! Hey!'"
+        }
+      ]
+    }
+  ]
+}

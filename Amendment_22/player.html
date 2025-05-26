@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amendment 22 - Learning Tool</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lexend', sans-serif;
+      background: #f5f5f5;
+      padding: 1rem;
+    }
+    
+    .back-link {
+      display: inline-block;
+      margin-bottom: 1rem;
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <a href="../index.html" class="back-link">← Back to Album</a>
+  
+  <div id="playerContainer"></div>
+
+  <script src="../song-player.js"></script>
+  <script>
+    const songData = {
+      "track": 1,
+      "folder": ".",
+      "title": "Amendment 22",
+      "overview": "index.html",
+      "audio": {
+        "mp3": "song.mp3",
+        "flac": "song.flac"
+      },
+      "parts": [
+        { "name": "Drums", "html": "drums.html", "stem": "stems/drums.wav", "notes": "" },
+        { "name": "Guitar", "html": "rhythm_guitar.html", "stem": "stems/guitar.wav", "notes": "" },
+        { "name": "Bass", "html": "bass.html", "stem": "stems/bass.wav", "notes": "" },
+        { "name": "Vocals", "html": "vocals.html", "stem": "stems/vocals.wav", "notes": "" }
+      ]
+    };
+
+    const player = document.createElement('song-player');
+    player.setAttribute('song-data', JSON.stringify(songData));
+    document.getElementById('playerContainer').appendChild(player);
+  </script>
+</body>
+</html>

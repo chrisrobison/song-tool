@@ -1,0 +1,41 @@
+{
+  "album": "Patriot Act Up",
+  "songs": [
+    {
+      "track": 2,
+      "folder": "Break_Free",
+      "title": "Break Free",
+      "overview": "index.html",
+      "audio": {
+        "mp3": "song.mp3",
+        "flac": ""
+      },
+      "parts": [
+        {
+          "name": "Drums",
+          "html": "drums.html",
+          "stem": "stems/drums.wav",
+          "notes": "Fast-paced 161 BPM punk beat. Emphasize fills."
+        },
+        {
+          "name": "Rhythm Guitar",
+          "html": "rhythm_guitar.html",
+          "stem": "stems/rhythm_guitar.wav",
+          "notes": "Drop D. Palm-muted verses, open chorus."
+        },
+        {
+          "name": "Lead Guitar",
+          "html": "lead_guitar.html",
+          "stem": "stems/lead_guitar.wav",
+          "notes": "Melodic overlays. Slide fills and feedback."
+        },
+        {
+          "name": "Vocals",
+          "html": "vocals.html",
+          "stem": "stems/vocals.wav",
+          "notes": "Rebellious skatepunk tone. Shouty choruses."
+        }
+      ]
+    }
+  ]
+}
