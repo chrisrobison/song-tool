@@ -1,0 +1,7 @@
+*.wav
+*.flac
+*.mp3
+*.mp4
+src
+.claude
+CLAUDE.md
